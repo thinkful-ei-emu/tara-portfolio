@@ -6,7 +6,7 @@ font-family: 'Montserrat', sans-serif;
 */
 
 /*
-Bold blue: #142A0C0
+Bold blue: #42A0C0
 Orange accent: #FF6700
 Light blue: #66D6FF
 Cream: #FDFCFB
@@ -32,7 +32,7 @@ nav {
 }
 
 .hero {
-  background-image: url('/Images/Hero\ Image.jpg');
+  background-image: url('https://github.com/thinkful-ei-emu/tara-portfolio/blob/master/Images/Hero%20Image.jpg?raw=true');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
