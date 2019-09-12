@@ -16,7 +16,7 @@ class AboutMe extends React.Component {
           </p>
 
           <img
-            src="https://github.com/thinkful-ei-emu/tara-portfolio/blob/master/Images/at-taj.jpg?raw=true"
+            src="https://raw.githubusercontent.com/tarajeanne/image_repo/master/at-taj.jpg"
             alt="T.J. Patel at Taj Mahal"
           />
 
@@ -38,7 +38,7 @@ class AboutMe extends React.Component {
           </p>
 
           <img
-            src="https://github.com/thinkful-ei-emu/tara-portfolio/blob/master/Images/mencharlie.jpg?raw=true"
+            src="https://raw.githubusercontent.com/tarajeanne/image_repo/master/mencharlie.jpg"
             alt="T.J. Patel with a dog"
           />
 
