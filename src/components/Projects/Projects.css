@@ -1,0 +1,68 @@
+.project-content {
+  text-align: center;
+}
+
+.project {
+  padding: 8px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 15px 15px;
+  box-shadow: 0 0 8px #CECECE, 0 0 8px #CECECE;
+  background-color: #FDF9F3;
+}
+
+.desktop-screenshot {
+  max-width: 95%;
+}
+
+.mobile-screenshot {
+  max-width: 43%;
+}
+
+.project-images {
+  text-align: center;
+}
+
+.project-text{
+  text-align: left;
+  line-height: 1.5;
+  margin-right: 5px;
+}
+
+.link-section {
+  font-size: 20px;
+  padding-left: 0;
+}
+.project-link {
+  list-style: none;
+}
+
+h4 {
+  text-align: center !important;
+}
+
+@media only screen and (min-width: 690px) {
+
+  .project-images {
+    width: 59%;
+    height: 100%;
+  }
+  .project-text {
+    width: 39%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+
+  .project-images {
+    width: 59%;
+    height: 100%;
+  }
+  .project-text {
+    width: 39%;
+    height: 100%;
+  }
+}

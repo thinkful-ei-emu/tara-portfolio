@@ -1,0 +1,38 @@
+.contact-content {
+  text-align: center;
+}
+
+.contact-content > ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-content > ul > li:not(:first-child) {
+  margin-left: 20px;
+}
+
+.contact-content > ul > li:not(:first-child):before {
+  content: '';
+}
+
+.contact-content > ul > li {
+  display: inline-block;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 24px;
+  margin-left: 20px;
+  padding-left: 8px;
+  border-left: 5px solid;
+  border-color: #99d161;
+}
+
+.links-section {
+  margin-top: 15px;
+}
+
+.links-section > a {
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 20px;
+  font-size: 26px;
+}
