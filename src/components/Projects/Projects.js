@@ -31,9 +31,9 @@ class Projects extends React.Component {
       mobile2: 'https://github.com/tarajeanne/image_repo/blob/master/phone_statscreen.png?raw=true',
       mobile2Alt: 'view of character creator stats generation screen',
       desc:
-        'An application that walks users through the steps of creating a character for Dungeons and Dragons. .',
+        'An application that walks users through the steps of creating a character for Dungeons and Dragons.',
       expandedDesc:
-        'Upon login, users can see a list of their characrters and create new ones. Once created, the app walks the user through the basic parts of creating a character. The stats screen updates live based on user selections, and informs the user how they got certain options. Finally, the app populates vital information in a character sheet that can be printed directly from the browser. This app will expand slowly as I find time to convert the Dungeons and Dragons core rulebook into JavaScript data structures.',
+        'Upon login, users can see a list of their characters and create new ones. Once created, the app walks the user through the basic parts of creating a character. The stats screen updates live based on user selections, and informs the user how they got certain options. Finally, the app populates vital information in a character sheet that can be printed directly from the browser. This app will expand slowly as I find time to convert the Dungeons and Dragons core rulebook into JavaScript data structures.',
       name: 'Dungeons and Dragons Character Creator',
       tech: 'JavaScript, CSS3, React, React Router, Node.js, Express, Mocha, Chai, Enzyme, PostgreSQL, JSON Web Tokens, bcrypt',
       server:'https://github.com/tarajeanne/dnd-server',
