@@ -22,7 +22,7 @@ class Contact extends React.Component {
               >GitHub</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/tara-patel-45627a56/"
+            <a href="https://www.linkedin.com/in/tarajpatel/"
               >LinkedIn</a>
           </li>
         </ul>

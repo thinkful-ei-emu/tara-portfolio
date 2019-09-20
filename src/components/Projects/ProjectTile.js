@@ -11,25 +11,30 @@ class ProjectTile extends React.Component {
   render() {
     return (
       <div className="project">
-        <h3>{this.state.name}</h3>
+        <div className="project-title">
+          <h3>{this.state.name}</h3>
+        </div>
         <div className="project-text">
           <h4>About</h4>
           <p>{this.state.desc}</p>
 
-          
           <p>{this.state.expandedDesc}</p>
           <h4>Technologies used:</h4>
           <div className="tech-icons">
             <p>{this.state.tech}</p>
           </div>
           <h4>Links</h4>
-            <ul className="link-section">
-              <li className="project-link"><a href={this.state.client}>Client Repository</a></li>
-              <li className="project-link"><a href={this.state.server}>Server Repository</a></li>
-              <li className="project-link"><a href={this.state.live}>Live Demo</a></li>
-
-            </ul>
-
+          <ul className="link-section">
+            <li className="project-link">
+              <a href={this.state.client}>Client Repository</a>
+            </li>
+            <li className="project-link">
+              <a href={this.state.server}>Server Repository</a>
+            </li>
+            <li className="project-link">
+              <a href={this.state.live}>Live Demo</a>
+            </li>
+          </ul>
         </div>
         <div className="project-images">
           <img

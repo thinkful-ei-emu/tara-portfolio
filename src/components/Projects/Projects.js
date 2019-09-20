@@ -4,20 +4,25 @@ import './Projects.css'
 
 class Projects extends React.Component {
   render() {
-    const triviaTraining = {
+    const spacedRepetition = {
       desktop1:
-        'https://github.com/thinkful-ei-emu/tara-portfolio/blob/master/Images/trivia-training-desktop.png?raw=true',
-      desktop1Alt: 'Trivia Training app desktop screenshot',
-      desktop2: '',
-      desktop2Alt: '',
-      mobile1:'',
-      mobile1Alt:'',
+        'https://github.com/tarajeanne/image_repo/blob/master/Aorende%20desktop%201.png?raw=true',
+      desktop1Alt: 'Aprende desktop screenshot',
+      desktop2: 'https://github.com/tarajeanne/image_repo/blob/master/Aprende%20desktop%202.png?raw=true',
+      desktop2Alt: 'Aprende desktop screenshot',
+      mobile1:'https://github.com/tarajeanne/image_repo/blob/master/aprende%20mobile%201.png?raw=true',
+      mobile1Alt:'Aprende mobile screenshot',
+      mobile2: 'https://github.com/tarajeanne/image_repo/blob/master/aprende%20mobile%202.png?raw=true',
+      mobileAlt: 'Aprende mobile screenshot',
       desc:
-        'An interactive game that allows users to test their knowledge over random topics.',
+        'An application that uses a research-based learning technique for foreign language acquisition.',
       expandedDesc:
-        'As users play through the game, they get feedback about their responses, and can track their score at the top of the screen. At the end of the game, the user finds out whether or not they got a new high score.',
-      name: 'Trivia Training',
-      tech: 'JavaScript, HTML, CSS, JQuery'
+        'Upon login, users can see a list of words they are practicing. When the user clicks the practice button, they are shown a word chosen based on a spaced repetition algorithm. The algorithm is implemented in the server by manipulating a singly linked list in the database. Upon a correct answer, that word moves back in the list many spaces, depending on how often the user gets it right. If the user gets it wrong, it moves back only one space, and the user sees it sooner.',
+      name: '¡Aprende!',
+      tech: 'JavaScript, CSS3, React, React Router, Node.js, Express, Mocha, Chai, Enzyme, PostgreSQL, JSON Web Tokens, bcrypt',
+      server:'https://github.com/thinkful-ei-emu/Zane-Tara-Spaceful-Repetition-Client',
+      client: 'https://github.com/thinkful-ei-emu/Zane-Tara-Spaceful-Repetition-Client',
+      live: 'https://aprende.tara-zane.now.sh/login'
     };
 
     const DnD = {
@@ -47,6 +52,7 @@ class Projects extends React.Component {
         </header>
         <div class="section-content project-content">
           <ProjectTile data={DnD} />
+          <ProjectTile data={spacedRepetition} />
         </div>
       </section>
     );
