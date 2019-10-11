@@ -32,9 +32,9 @@ class Projects extends React.Component {
       desktop2: 'https://raw.githubusercontent.com/tarajeanne/image_repo/master/dnd-desktop-2.png',
       desktop2Alt: 'view of character creator character sheet print screen',
       mobile1:'https://raw.githubusercontent.com/tarajeanne/image_repo/master/dnd-mobile-1.png',
-      mobile1Alt:'view of character creator class selection screen',
+      mobile1Alt:'view of character creator class selection screen on mobile',
       mobile2: 'https://raw.githubusercontent.com/tarajeanne/image_repo/master/dnd-mobile-2.png',
-      mobile2Alt: 'view of character creator stats generation screen',
+      mobile2Alt: 'view of character creator stats generation screen on mobile',
       desc:
         'An application that walks users through the steps of creating a character for Dungeons and Dragons.',
       expandedDesc:
@@ -57,14 +57,14 @@ class Projects extends React.Component {
       mobile2: 'https://raw.githubusercontent.com/tarajeanne/image_repo/master/symptom-mobile-2.png',
       mobile2Alt: 'View of dashboard on mobile',
       desc:
-        'An application that walks users through the steps of creating a character for Dungeons and Dragons.',
+        'An application that allows enables users to track illnesses and foods they eat to identify relationships.',
       expandedDesc:
-        'Upon login, users can see a list of their characters and create new ones. Once created, the app walks the user through the basic parts of creating a character. The stats screen updates live based on user selections, and informs the user how they got certain options. Finally, the app populates vital information in a character sheet that can be printed directly from the browser. This app will expand slowly as I find time to convert the Dungeons and Dragons core rulebook into JavaScript data structures.',
-      name: 'Dungeons and Dragons Character Creator',
-      tech: 'JavaScript, CSS3, React, React Router, Node.js, Express, Mocha, Chai, Enzyme, PostgreSQL, JSON Web Tokens, bcrypt',
-      server:'https://github.com/tarajeanne/dnd-server',
-      client: 'https://github.com/tarajeanne/dnd-client',
-      live: 'https://dnd-creator.tjeannepatel.now.sh/'
+        'Symptom Tracker\'s targeted user experiences chronic symptoms that may be related to the foods they eat. On the app, users can log the foods they eat with a search powered by the USDA database. Additionally, they can log symptoms they experience. On their dashboard, they can see a log of their meals and symptoms. On our server, we run an algorithm that searches through all the instances of that symptom and identifies the meals eaten within a user-defined temporal threshold and delivers the most relevant ingredients back to the user.',
+      name: 'Symptom Tracker',
+      tech: 'JavaScript, CSS3, React, React Router, Chart.js, Node.js, Express, Mocha, Chai, Jest, PostgreSQL, JSON Web Tokens, bcrypt',
+      server:'https://github.com/thinkful-ei-emu/RAMbo-Tracker-Server',
+      client: 'https://github.com/thinkful-ei-emu/RAMbo-Tracker-client',
+      live: 'https://symptomtracker.rambo.now.sh/'
     }
     return (
       <section id="projects">
