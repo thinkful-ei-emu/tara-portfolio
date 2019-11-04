@@ -72,8 +72,8 @@ class Projects extends React.Component {
           <h2>My projects</h2>
         </header>
         <div class="section-content project-content">
-          <ProjectTile data={symptomTracker} />
           <ProjectTile data={DnD} />
+          <ProjectTile data={symptomTracker} />
           <ProjectTile data={spacedRepetition} />
         </div>
       </section>
