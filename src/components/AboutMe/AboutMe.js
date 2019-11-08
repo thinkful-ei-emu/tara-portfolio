@@ -25,7 +25,8 @@ class AboutMe extends React.Component {
 
           <div className="about-text-area">
             <p class="about-me-text">
-              I am a full-stack developer recently graduated from the Thinkful Engineering Immersion program.
+              I am a full-stack developer recently graduated from the Thinkful
+              Engineering Immersion program.
             </p>
 
             <p class="about-me-text">
@@ -57,9 +58,12 @@ class AboutMe extends React.Component {
             </p>
 
             <p class="about-me-text">
-              My personal projects so far have been ambitious and fulfilling, and I still actively improve them. I'm
-              excited to transfer the knowledge I've gained into meaningful work
-              for companies I can be proud to work for. 
+              My personal projects so far have been ambitious and fulfilling,
+              and I still actively improve them. I built them to solve real
+              issues I saw in my daily life, meticulously designing every
+              detail to suit the particular needs of the problem. I'm excited to
+              transfer those skills into meaningful work for
+              companies I can be proud to work for.
             </p>
           </div>
         </div>
