@@ -25,13 +25,12 @@ class AboutMe extends React.Component {
 
           <div className="about-text-area">
             <p class="about-me-text">
-              I am a full-stack web developer enrolled in the Engineering
-              Immersion program at Thinkful.
+              I am a full-stack developer recently graduated from the Thinkful Engineering Immersion program.
             </p>
 
             <p class="about-me-text">
               In my past endeavors, I’ve always found joy in re-engineering
-              systems to better meet the goals of my organization-- from
+              systems to better meet the goals of my organization--from
               redesigning my college's committee system to planning projects for
               teenagers as a teacher. Coding gives me the opportunity to
               incorporate that joy into my daily work.
@@ -58,11 +57,9 @@ class AboutMe extends React.Component {
             </p>
 
             <p class="about-me-text">
-              My personal projects so far have been ambitious and fulfilling. My
-              Dungeons and Dragons character creator fills a need I saw in my
-              personal life and was an absolute thrill to put together. I'm
+              My personal projects so far have been ambitious and fulfilling, and I still actively improve them. I'm
               excited to transfer the knowledge I've gained into meaningful work
-              for companies I can be proud to work for.
+              for companies I can be proud to work for. 
             </p>
           </div>
         </div>
